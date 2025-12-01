@@ -310,39 +310,6 @@ section {
   min-width: 20px;
 }
 
-/* === PROFIL KARAKTER === */
-.char-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
-  gap: 15px;
-  margin-top: 25px;
-}
-
-.char-card {
-  background: rgba(0, 0, 0, 0.3);
-  padding: 15px;
-  border-radius: 8px;
-  text-align: center;
-  border: 1px solid var(--border-color);
-  transition: 0.3s;
-}
-
-.char-card:hover {
-  border-color: var(--survivor-green);
-  background: rgba(46, 204, 113, 0.05);
-}
-
-.char-card h4 {
-  color: var(--survivor-green);
-  margin-bottom: 5px;
-  font-size: 1rem;
-}
-
-.char-card p {
-  font-size: 0.8rem;
-  color: #888;
-}
-
 /* === FOOTER === */
 footer {
   text-align: center;
