@@ -178,6 +178,38 @@ section {
   padding-bottom: 10px;
 }
 
+/* === TOMBOL DOWNLOAD BARU === */
+.download-btn {
+  display: block;
+  width: 100%;
+  padding: 15px;
+  background: var(--tiger-orange);
+  color: #fff;
+  text-align: center;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  transition: 0.3s;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  border: 2px solid transparent;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+.download-btn:hover {
+  background: transparent;
+  border-color: var(--tiger-orange);
+  color: var(--tiger-orange);
+  box-shadow: 0 0 15px rgba(230, 126, 34, 0.4);
+  transform: translateY(-2px);
+}
+
+.download-btn i {
+  margin-right: 10px;
+  font-size: 1.2em;
+}
+
 /* === SISTEM TAB === */
 .tabs {
   display: flex;

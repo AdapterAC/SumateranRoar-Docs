@@ -6,7 +6,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Panduan Bermain - Sumateran Roar</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-
     <link rel="stylesheet" href="css/style.css">
 </head>
 
@@ -43,14 +42,25 @@
             <div class="card-grid">
                 <div class="card info">
                     <h3><i class="fa-brands fa-windows"></i> Akses Aplikasi</h3>
+
+                    <!-- TOMBOL DOWNLOAD DITAMBAHKAN DI SINI -->
+                    <!-- Ganti 'files/SumateranRoar.exe' dengan link asli file Anda (misal Google Drive atau GitHub Release) -->
+                    <a href="files/SumateranRoar.exe" class="download-btn" download>
+                        <i class="fa-solid fa-file-arrow-down"></i> Download SumateranRoar.exe
+                    </a>
+
+                    <p style="font-size: 0.9rem; margin-bottom: 15px; color: var(--text-muted);">
+                        <em>*Pastikan menaruh file .exe dalam satu folder dengan data game lainnya.</em>
+                    </p>
+
                     <ol style="margin-left: 20px; color: var(--text-muted); margin-bottom: 10px;">
-                        <li>Pastikan file <code>SumateranRoar.zip</code> telah diunduh.</li>
-                        <li>Klik kanan file tersebut, pilih <strong>Extract Here</strong>.</li>
-                        <li>Buka folder hasil ekstrak, cari file <strong>SumateranRoar.exe</strong>.</li>
-                        <li>Klik ganda untuk menjalankan game.</li>
+                        <li>Klik tombol <strong>Download</strong> di atas.</li>
+                        <li>Jika browser memblokir (dianggap berbahaya), pilih <strong>Keep</strong> atau <strong>Run
+                                Anyway</strong>.</li>
+                        <li>Pastikan file berada di folder game yang lengkap (berisi folder
+                            <code>SumateranRoar_Data</code>).</li>
+                        <li>Klik ganda <strong>SumateranRoar.exe</strong> untuk bermain.</li>
                     </ol>
-                    <p style="font-size: 0.85rem; color: #666; margin-top: 10px;">*Jika muncul peringatan Windows, pilih
-                        "Run Anyway".</p>
                 </div>
 
                 <div class="card info">
@@ -61,8 +71,7 @@
                         <li><i class="fa-solid fa-right-to-bracket" style="color: #2ecc71;"></i> <strong>Join
                                 Room:</strong> Masukkan kode atau IP Host untuk bergabung.</li>
                         <li><i class="fa-solid fa-gamepad" style="color: var(--tiger-orange);"></i> <strong>Start
-                                Game:</strong> Permainan dimulai otomatis saat 5 pemain (4 Survivor + 1 Harimau)
-                            terkumpul.</li>
+                                Game:</strong> Permainan dimulai otomatis saat 5 pemain terkumpul.</li>
                     </ul>
                 </div>
             </div>
@@ -124,7 +133,8 @@
                                         harimau.</li>
                                     <li><i class="fa-solid fa-skull-crossbones" style="color:#e74c3c"></i>
                                         <strong>Downed (2 Hit):</strong> Lumpuh total. Tidak bisa bergerak dan rentan
-                                        ditangkap.</li>
+                                        ditangkap.
+                                    </li>
                                 </ul>
                             </div>
                             <div style="flex: 1;">
@@ -182,17 +192,20 @@
                                         dibanding manusia.</li>
                                     <li><i class="fa-solid fa-shoe-prints" style="color:var(--tiger-orange)"></i>
                                         <strong>Blood Scent:</strong> Jejak manusia yang terluka (Injured) akan terlihat
-                                        menyala merah bagi Harimau.</li>
+                                        menyala merah bagi Harimau.
+                                    </li>
                                 </ul>
                             </div>
                             <div style="flex: 1; min-width: 250px;">
                                 <ul class="feature-list">
                                     <li><i class="fa-solid fa-bolt" style="color:var(--tiger-orange)"></i>
                                         <strong>Predator Speed:</strong> Kecepatan dasar harimau lebih tinggi dari lari
-                                        normal manusia.</li>
+                                        normal manusia.
+                                    </li>
                                     <li><i class="fa-solid fa-ear-listen" style="color:var(--tiger-orange)"></i>
                                         <strong>Hearing:</strong> Mendengar suara langkah kaki atau interaksi manusia
-                                        yang gagal (noisy).</li>
+                                        yang gagal (noisy).
+                                    </li>
                                 </ul>
                             </div>
                         </div>
